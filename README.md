@@ -1,10 +1,10 @@
 # Privacy Policy — MiniPOS
 
-**Effective date:** July 5, 2026
+**Effective date:** July 10, 2026
 
-MiniPOS ("the app") is developed and published by **RainLab** (Mahmudunnobi
-Rain), Dhaka, Bangladesh. This policy explains what information the app
-handles, where it is stored, and the choices you have.
+MiniPOS ("the app") is developed and published by **RainLab**, Dhaka,
+Bangladesh. This policy explains what information the app handles, where it
+is stored, and the choices you have.
 
 The short version: **your business data belongs to you and stays on your
 phone.** We do not run any servers, we do not collect your data, and we
@@ -79,12 +79,36 @@ anyone you hand your unlocked phone to can see it; please use a device lock.
 
 ## 6. Data retention and deletion
 
-- **On your device:** uninstalling the app permanently deletes all locally
-  stored data. You can also clear the app's data from system settings.
-- **Google Drive backups:** remain in your own Drive until you delete them
-  (see section 2) or until they are replaced by newer backups under the
-  rotation policy. RainLab cannot delete, read, or recover them for you,
-  because we never have access.
+### On your device
+
+- Uninstalling the app, or clearing the app's data from system settings,
+  permanently deletes all locally stored MiniPOS data on that device.
+- **While you use the app**, your records stay on the phone. For speed, the
+  app keeps roughly the **last 90 days** of activity ready in memory, and
+  loads older history from on-device storage when you ask for it (for example
+  a custom date range in Transactions).
+- **Daily totals** used for Statistics are kept as compact per-day summaries
+  so charts and range totals can work without loading every old sale.
+- **Open dues** (money still owed) and related payment / advance balances are
+  kept available for as long as they remain open — they are not removed just
+  because they are old.
+- A future in-app option may let you **manually clear old settled sales**
+  (for example older than six months) to free space, after you back up or
+  export. That cleanup would run only on your device, only with your
+  confirmation, and would not delete open dues. Until that feature ships,
+  settled history is not auto-deleted.
+
+RainLab never receives your business records and cannot delete or recover
+them for you.
+
+### Google Drive backups
+
+Backups remain in your own Drive until you delete them (see section 2) or
+until they are replaced by newer backups under the rotation policy. RainLab
+cannot delete, read, or recover them, because we never have access.
+
+Engineering detail for the planned cleanup rules lives in
+`docs/data_lifecycle.md` in the project repository.
 
 ## 7. Children
 
@@ -103,6 +127,6 @@ changes will be announced inside the app.
 
 For any question about this policy or your data:
 
-**RainLab** (Mahmudunnobi Rain)
+**RainLab**
 Dhaka, Bangladesh
 Email: quasarcode13@gmail.com
