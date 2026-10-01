@@ -166,8 +166,10 @@ children.
 
 If the app gains features that change how data is handled (for example,
 crash reporting or a paid subscription), this policy will be updated before
-those features launch, and the effective date above will change. Material
-changes will be announced inside the app.
+those features launch, and the effective date above will change. The current
+version is always available on this page; the Privacy policy screen in the
+app's menu shows a summary. Material changes will also be mentioned in the
+app's update notes on Google Play.
 
 ## 10. Contact
 
