@@ -1,10 +1,6 @@
 # Privacy Policy — MiniPOS
 
-**Effective date:** _set to the release date of the version that adds app lock_
-
-> Draft for version 0.2.0 (app lock, required backup account). Publish this
-> text (and update the hosted Play Store policy URL) before that version
-> goes live.
+**Effective date:** 2 October 2026
 
 MiniPOS ("the app") is developed and published by **RainLab**, Dhaka,
 Bangladesh. This policy explains what information the app handles, where it
@@ -60,9 +56,9 @@ meantime. Once you are signed in:
 - You can stop backups at any time by signing out on the Backup page.
 - Backups are kept on a rotating basis: the most recent copies, one per day
   for the past week and one per week for the past month. Older copies are
-  automatically deleted. You can delete all backups at any time by removing MiniPOS's
-  access in your Google account settings (Google Drive → Settings → Manage
-  apps) or by signing out and deleting data from within the app.
+  automatically deleted. You can delete all backups at any time from Google
+  Drive on the web: Settings → Manage apps → MiniPOS → Options → Delete
+  hidden app data.
 
 The backup travels directly from your device to Google Drive over an
 encrypted connection (HTTPS). No copy passes through, or is stored on, any
@@ -100,11 +96,18 @@ address from the device.
 
 ## 4. Notifications
 
-The app may show notifications on your device, for example service updates
-or occasional promotional messages about MiniPOS. Notifications are not
-based on your business data, and none of your data is shared to deliver
-them. You can turn notifications off at any time in your device's system
-settings.
+The app shows one kind of notification on your device:
+
+- **Overdue reminders.** Once a day, if a customer's payment date has passed,
+  MiniPOS can show a notification with the number of overdue dues and the
+  amount outstanding. This is worked out on your phone from your own records;
+  nothing is sent to us or anyone else. It is on by default and can be turned
+  off in Settings → Overdue reminders, or in your phone's notification
+  settings.
+
+The app never sends messages to your customers. "Send reminder" only prepares
+a text and opens your phone's share menu; you choose the app and the
+recipient, and nothing is sent until you send it.
 
 ## 5. What we do NOT do
 
@@ -152,9 +155,6 @@ them for you.
 Backups remain in your own Drive until you delete them (see section 2) or
 until they are replaced by newer backups under the rotation policy. RainLab
 cannot delete, read, or recover them, because we never have access.
-
-Engineering detail for the planned cleanup rules lives in
-`docs/data_lifecycle.md` in the project repository.
 
 ## 8. Children
 
